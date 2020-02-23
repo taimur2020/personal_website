@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+h1{
+
+    font-size: 35px;
+    line-height: 25px;
+}
+
+h2{
+    font-size: 40px;
+    
+
+}
+
+p{
+
+    color: dimgray;
+    text-align: justify;
+}
+
+.t-highlight{
+
+    color: #ec4c7a;
+}
+
+.half-partition{
+
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+
+.half-partition img{
+
+    width:80%;
+
+}
+
+.header-bg{
+    background-image: url("images/header-bg.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+
+section{
+
+    height: 500px;
+    padding-bottom: 90px;
+   
+}
+
+.a-button{
+
+    text-decoration: none;
+    background-image: linear-gradient(180deg,#ec4f8e, #ec4c76);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+
+    
+    border: none;
+    
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+
+}
+
+.a-button:hover {background: cyan;}
+
+
+.b-button{
+
+    text-decoration: none;
+    background-image: linear-gradient(180deg,#ec4f8e, #ec4c76);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+
+
+
+}
+
+#prog{
+
+    font-size: 22px;
+}
+
+.button {
+    width: 50%;
+    background-color: #ec4f8e;
+    border: none;
+    color: white;
+    padding: 50px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.bio-graphy{
+
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+
+}
+
+.work{
+
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    align-items: center;
+  }
+
+  
+  row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+
+.progress{
+
+    text-align: center;
+    padding-left: 90px;
+}
+
+footer p{
+
+    text-align: center;
+    font-size: 12px;
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 80%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;
